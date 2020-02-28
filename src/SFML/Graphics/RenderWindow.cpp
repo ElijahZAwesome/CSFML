@@ -90,7 +90,7 @@ sfRenderWindow* sfRenderWindow_createUnicode(sfVideoMode mode, const sfUint32* t
 
 
 ////////////////////////////////////////////////////////////
-sfRenderWindow* sfRenderWindow_createFromHandle(sfWindowHandle handle, const sfContextSettings* settings)
+sfRenderWindow* sfRenderWindow_createFromHandle(sf::WindowHandle handle, const sfContextSettings* settings)
 {
     // Convert context settings
     sf::ContextSettings params;

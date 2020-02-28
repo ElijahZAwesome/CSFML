@@ -1,4 +1,7 @@
 
+set(SFML_DIR ${CMAKE_SOURCE_DIR}/../../SFML/SFML/build/${ANDROID_ABI})
+message(${SFML_DIR})
+
 # include the SFML specific macros
 include(${CMAKE_SOURCE_DIR}/cmake/Macros.cmake)
 

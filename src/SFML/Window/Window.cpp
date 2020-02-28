@@ -75,7 +75,7 @@ sfWindow* sfWindow_createUnicode(sfVideoMode mode, const sfUint32* title, sfUint
 
 
 ////////////////////////////////////////////////////////////
-sfWindow* sfWindow_createFromHandle(sfWindowHandle handle, const sfContextSettings* settings)
+sfWindow* sfWindow_createFromHandle(sf::WindowHandle handle, const sfContextSettings* settings)
 {
     // Convert context settings
     sf::ContextSettings params;
